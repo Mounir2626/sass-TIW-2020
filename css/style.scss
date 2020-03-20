@@ -1,5 +1,7 @@
 $couleur-principal: #657428;
+$couleur-secondaire: #704529;
 $cp: $couleur-principal;
+$cs: $couleur-secondaire;
 
 body{
     background: #efefef;
@@ -40,6 +42,7 @@ body{
         }
     }
     div{
+        background-color: $cs;
         .foo{
             color: activecaption;
             background-color: yellow;

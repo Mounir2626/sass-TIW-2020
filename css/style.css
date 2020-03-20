@@ -21,12 +21,14 @@ body {
       color: #000; }
   body div:hover, body div.class {
     background: red; }
-  body div .foo {
-    color: activecaption;
-    background-color: yellow; }
-    body div .foo-bar {
-      color: bisque;
+  body div {
+    background-color: #704529; }
+    body div .foo {
+      color: activecaption;
       background-color: yellow; }
+      body div .foo-bar {
+        color: bisque;
+        background-color: yellow; }
   body p {
     font-size: 1.2em;
     font-weight: bold;
