@@ -62,7 +62,7 @@ $cs: $couleur-secondaire;
 
 body{
     font-family: $pp;
-    background: #efefef;
+    background: #b6b5b5;
     color: $cp !important;
     a{
         color: red;
@@ -158,4 +158,22 @@ body{
     @include desktop {
         background-color: #ccc;
     }
+}
+
+@mixin border-radius($valeur:5px,$marge:5px){
+    border-radius: $valeur;
+    margin: $marge;
+}
+.coin{
+    @include border-radius;
+}
+.coinrond{
+    @include border-radius(20px,10px);
+}
+
+@mixin opacité($valeur:1){
+    color: rgba(255,0,0,$valeur);
+}
+.red{
+    @include opacité(.7);
 }

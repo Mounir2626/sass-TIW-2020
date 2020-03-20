@@ -7,7 +7,7 @@
 .block-info{background-color:#00f}
 .autreclass,.maclass{font-size:1.3em;color:#00f;margin:5px}
 .autreclass{color:red}
-body{font-family:Roboto;background:#efefef;color:#657429!important}
+body{font-family:Roboto;background:#b6b5b5;color:#657429!important}
 body a{color:red;font-size:2em;transition:all 1s ease}
 body a:hover{color:purple}
 body a.lienautre{font-size:1.7em}
@@ -29,3 +29,6 @@ body{background-color:#333}
 @media (min-width:992px){
 body{background-color:#ccc}
 }
+.coin{border-radius:5px;margin:5px}
+.coinrond{border-radius:20px;margin:10px}
+.red{color:rgba(255,0,0,.7)}
