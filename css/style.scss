@@ -50,6 +50,16 @@ $cs: $couleur-secondaire;
     }
 }
 
+.maclass{
+    font-size: 1.3em;
+    color: blue;
+    margin: 5px;
+}
+.autreclass{
+    @extend .maclass;
+    color: red;
+}
+
 body{
     font-family: $pp;
     background: #efefef;
@@ -126,7 +136,7 @@ body{
 
 
 $tablet-width: 768px;
-$desktop-width: 1024px;
+$desktop-width: 992px;
 
 @mixin tablet {
   @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
@@ -142,10 +152,10 @@ $desktop-width: 1024px;
 
 body{
     @include tablet {
-        color: burlywood;
+        background-color: #333;
     }
 
     @include desktop {
-        color: turquoise;
+        background-color: #ccc;
     }
 }

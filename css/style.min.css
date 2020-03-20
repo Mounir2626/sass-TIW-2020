@@ -5,6 +5,8 @@
 .block-valid{background-color:green}
 .block-warning{background-color:orange}
 .block-info{background-color:#00f}
+.autreclass,.maclass{font-size:1.3em;color:#00f;margin:5px}
+.autreclass{color:red}
 body{font-family:Roboto;background:#efefef;color:#657429!important}
 body a{color:red;font-size:2em;transition:all 1s ease}
 body a:hover{color:purple}
@@ -21,9 +23,9 @@ body div{background-color:#704529}
 body div .foo{color:activecaption;background-color:#ff0}
 body div .foo-bar{color:bisque;background-color:#ff0}
 body p{font-size:1.2em;font-weight:700;font-family:serif}
-@media (min-width:768px) and (max-width:1023px){
-body{color:#deb887}
+@media (min-width:768px) and (max-width:991px){
+body{background-color:#333}
 }
-@media (min-width:1024px){
-body{color:#40e0d0}
+@media (min-width:992px){
+body{background-color:#ccc}
 }
