@@ -20,7 +20,7 @@ body {
     body h1:hover {
       color: #000; }
   body div:hover, body div.class {
-    background: green; }
+    background: red; }
   body div {
     background-color: #704529; }
     body div .foo {
@@ -30,7 +30,7 @@ body {
         color: bisque;
         background-color: yellow; }
   body p {
-    font-size: 1.2em;
+    font-size: 1.7em;
     font-weight: bold;
     font-family: serif; }
 
