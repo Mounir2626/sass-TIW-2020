@@ -9,7 +9,7 @@ body h1,body h2,body h3,body h4{font-family:"Roboto Condensed"}
 body blockquote{font-family:"Roboto Mono"}
 body em,body strong{font-family:"Roboto Slab"}
 body h1{color:#999;transition:all 1s ease}
-body h1:hover{color:#000}
+body h1:hover{color:red}
 body div.class,body div:hover{background:red}
 body div{background-color:#704529}
 body div .foo{color:activecaption;background-color:#ff0}
